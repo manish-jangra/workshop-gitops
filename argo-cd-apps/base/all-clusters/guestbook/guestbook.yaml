@@ -22,7 +22,7 @@ spec:
       project: default
       source:
         path: '{{values.sourceRoot}}/{{values.environment}}/{{values.clusterDir}}'
-        repoURL: https://github.com/redhat-appstudio/infra-deployments.git
+        repoURL: https://github.com/manish-jangra/workshop-gitops.git
         targetRevision: main
       destination:
         namespace: default # not relevant yet since every object has an explicit namespace.

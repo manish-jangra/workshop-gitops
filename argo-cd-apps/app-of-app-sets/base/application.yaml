@@ -6,7 +6,7 @@ spec:
   project: default
   source:
     path: argo-cd-apps/overlays/development
-    repoURL: https://github.com/manish-jangra/argocd-example-apps.git
+    repoURL: https://github.com/manish-jangra/workshop-gitops.git
     targetRevision: main
   destination:
     namespace: openshift-gitops
